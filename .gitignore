@@ -1,0 +1,5 @@
+venv/
+.DS_Store
+.idea/
+data/supervised_tweets.csv
+data/supervised_tweets_all_variables.csv

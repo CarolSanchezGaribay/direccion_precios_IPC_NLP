@@ -1,0 +1,46 @@
+# TICKERS
+scrapy crawl TweetScraper -a query="$ GFNORT since:2018-10-01 until:2019-12-31" -a lang='es' -a crawl_user=true
+scrapy crawl TweetScraper -a query="$ BBAJIO since:2018-10-01 until:2019-12-31" -a lang='es' -a crawl_user=true
+scrapy crawl TweetScraper -a query="$ BSMX since:2018-10-01 until:2019-12-31" -a lang='es' -a crawl_user=true
+scrapy crawl TweetScraper -a query="$ GENTER since:2018-10-01 until:2019-12-31" -a lang='es' -a crawl_user=true
+scrapy crawl TweetScraper -a query="$ GFINBU since:2018-10-01 until:2019-12-31" -a lang='es' -a crawl_user=true
+#scrapy crawl TweetScraper -a query="$ R since:2018-10-01 until:2019-12-31" -a lang='es' -a crawl_user=true
+
+# PERSONAJES INFLUYENTES: Políticos y periodistas
+scrapy crawl TweetScraper -a query="from:@lopezobrador_ since:2018-10-01 until:2019-12-31"
+scrapy crawl TweetScraper -a query="from:@ricardomonreala since:2018-10-01 until:2019-12-31"
+scrapy crawl TweetScraper -a query="from:@JoseCardenas1 since:2018-10-01 until:2019-12-31"
+scrapy crawl TweetScraper -a query="from:@Javier_Alatorre since:2018-10-01 until:2019-12-31" (JAVI)
+scrapy crawl TweetScraper -a query="from:@leozuckermann since:2018-10-01 until:2019-12-31" (JAVI)
+scrapy crawl TweetScraper -a query="from:@EnriqueKrauze since:2018-10-01 until:2019-12-31" (JAVI)
+scrapy crawl TweetScraper -a query="from:@lopezdoriga since:2018-10-01 until:2019-12-31" (JAVI)
+scrapy crawl TweetScraper -a query="from:@CarlosLoret since:2018-10-01 until:2019-12-31"
+scrapy crawl TweetScraper -a query="from:@aristeguicnn since:2018-10-01 until:2019-12-31"
+scrapy crawl TweetScraper -a query="from:@Adela_Micha since:2018-10-01 until:2019-12-31"
+scrapy crawl TweetScraper -a query="from:@JuanSMusi since:2018-10-01 until:2019-12-31" (JAVI)
+
+# PERIÓDICOS
+scrapy crawl TweetScraper -a query="from:@ElFinanciero_Mx since:2018-10-01 until:2019-12-31"
+scrapy crawl TweetScraper -a query="from:@El_Universal_Mx since:2018-10-01 until:2019-12-31" (JAVI)
+scrapy crawl TweetScraper -a query="from:@eleconomista since:2018-10-01 until:2019-12-31" (JAVI)
+scrapy crawl TweetScraper -a query="from:@Milenio since:2018-10-01 until:2019-12-31"
+scrapy crawl TweetScraper -a query="from:@Reforma since:2018-10-01 until:2019-12-31"
+scrapy crawl TweetScraper -a query="from:@Excelsior since:2018-10-01 until:2019-12-31" (JAVI)
+scrapy crawl TweetScraper -a query="from:@AristeguiOnline since:2018-10-01 until:2019-12-31"
+
+# INSTITUCIONES
+scrapy crawl TweetScraper -a query="from:@Banxico since:2018-10-01 until:2019-12-31"
+scrapy crawl TweetScraper -a query="from:@BMVMercados since:2018-10-01 until:2019-12-31" (JAVI)
+scrapy crawl TweetScraper -a query="from:@Coparmex since:2018-10-01 until:2019-12-31" (JAVI)
+scrapy crawl TweetScraper -a query="from:@SE_mx since:2018-10-01 until:2019-12-31"
+scrapy crawl TweetScraper -a query="from:@gobmx since:2018-10-01 until:2019-12-31" (JAVI)
+
+# HASHTAGS
+scrapy crawl TweetScraper -a query="# IPC since:2018-10-01 until:2019-12-31 near:Mexico" -a lang='es' -a crawl_user=true
+scrapy crawl TweetScraper -a query="# comisionesbancarias since:2018-10-01 until:2019-12-31 near:Mexico" -a lang='es' -a crawl_user=true
+scrapy crawl TweetScraper -a query="# nuevoaeropuerto since:2018-10-01 until:2019-12-31 near:Mexico" -a lang='es' -a crawl_user=true
+scrapy crawl TweetScraper -a query="# naicm since:2018-10-01 until:2019-12-31 near:Mexico" -a lang='es' -a crawl_user=true
+scrapy crawl TweetScraper -a query="# TRMX since:2018-10-01 until:2019-12-31" -a lang='es' -a crawl_user=true (JAVI)
+scrapy crawl TweetScraper -a query="# s since:2018-10-01 until:2019-12-31" -a lang='es' -a crawl_user=true
+scrapy crawl TweetScraper -a query="# Clubdetraders since:2018-10-01 until:2019-12-31" -a lang='es' -a crawl_user=true (JAVI)
+scrapy crawl TweetScraper -a query="# tmec since:2018-10-01 until:2019-12-31" -a lang='es' -a crawl_user=true (JAVI)
